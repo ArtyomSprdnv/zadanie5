@@ -266,9 +266,9 @@ else {
     setcookie('privacy_error', '', 100000);
   }
   
-  $user = 'u41026';
-  $pass = '4433573';
-  $db = new PDO('mysql:host=localhost;dbname=u41026', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
+  $user = 'u47502';
+  $pass = '8701243';
+  $db = new PDO('mysql:host=localhost;dbname=u47502', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
   // Проверяем меняются ли ранее сохраненные данные или отправляются новые.
   if (!empty($_COOKIE[session_name()]) && !empty($_SESSION['login']) and !$errors) {
     $id=$_SESSION['uid'];
