@@ -55,8 +55,8 @@ else {
   $p=$_POST['pass'];
   $uid=0;
   $error=TRUE;
-  $user = 'u41026';
-  $pass = '4433573';
+  $user = 'u47502';
+  $pass = '8701243';
   $db1 = new PDO('mysql:host=localhost;dbname=u41026', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
   if(!empty($l) and !empty($p)){
     try{
